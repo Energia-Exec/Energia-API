@@ -1,0 +1,13 @@
+B:\VisualStudio\Projects\EnergiaTestUI\bin\Debug\EnergiaTestUI.exe.config
+B:\VisualStudio\Projects\EnergiaTestUI\bin\Debug\EnergiaTestUI.exe
+B:\VisualStudio\Projects\EnergiaTestUI\bin\Debug\EnergiaTestUI.pdb
+B:\VisualStudio\Projects\EnergiaTestUI\bin\Debug\EnergiaAPI.dll
+B:\VisualStudio\Projects\EnergiaTestUI\bin\Debug\EnergiaAPI.pdb
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.csproj.AssemblyReference.cache
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.Form1.resources
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.Properties.Resources.resources
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.csproj.GenerateResource.cache
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.csproj.CoreCompileInputs.cache
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaT.31166F34.Up2Date
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.exe
+B:\VisualStudio\Projects\EnergiaTestUI\obj\Debug\EnergiaTestUI.pdb
