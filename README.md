@@ -1,6 +1,6 @@
-# Energia API
+# Energia-API
 
-Welcome! This README will help you get started with using the **Energia API** — a lightweight and easy-to-use library designed to interact with Roblox processes.
+Welcome! This README will help you get started with using the **Energia-API** — a lightweight and easy-to-use library designed to interact with Roblox processes.
 
 ## 📦 Getting Started
 
@@ -52,8 +52,6 @@ class Program
 
         // Execute some Lua script globally
         Energia.Execute("print('Hello from Energia!')");
-
-        Console.ReadLine(); // Keep alive
     }
 }
 ```
