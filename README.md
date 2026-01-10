@@ -28,7 +28,7 @@ Here’s what you can do with the Energia API:
 | `Refresh()` | Manually refreshes the internal state of attached processes |
 | `GetAttachedClients()` | Returns an array of currently attached Roblox clients (`Client` objects) |
 | `GetClientName(pid)` | Returns a string with Roblox username associated with that PID (PID required) |
-| `InstancesChanged` | An event (Action) who being fired when an instance being attached/deattached. Callbacks with an array of currently attached clients |
+| `InstancesChanged += (attachedClients, newlyAttachedClients) => { }` | An event (Action) who being fired when an instance being attached/deattached. Callbacks with an array of currently attached clients and second array with clients who wasnt in the old array |
 
 ## 🕴️ Client object
 Some functions like `GetClients` returning array with `Client` class
