@@ -20,12 +20,19 @@ Here’s what you can do with the Energia API:
 
 | Method | Description |
 |--------|-------------|
-| `Attach(pid)` | Attaches to a specific Roblox process by PID. If none provided, attaches to all available instances. |
-| `Kill(pid)` | Terminates a given Roblox instance. Without arguments, kills all attached ones. |
-| `IsAttached(pid)` | Checks whether a process is currently attached. |
-| `Execute(content, pid)` | Runs Lua code inside a Roblox instance. Optionally target a specific process. |
-| `GetClients()` | Returns a list of currently running Roblox clients (`Client` objects). |
-| `Refresh()` | Manually refreshes the internal state of attached processes. |
+| `Attach(pid)` | Attaches to a specific Roblox process by PID. If none provided, attaches to all available instances |
+| `Kill(pid)` | Terminates a given Roblox instance. Without arguments, kills all attached ones |
+| `IsAttached(pid)` | Checks whether a process is currently attached |
+| `Execute(content, pid)` | Runs Lua code inside a Roblox instance. Optionally target a specific process |
+| `GetClients()` | Returns an array of currently running Roblox clients (`Client` objects) |
+| `Refresh()` | Manually refreshes the internal state of attached processes |
+| `GetAttachedClients()` | Returns an array of currently attached Roblox clients (`Client` objects) |
+| `GetClientName(pid)` | Returns a string with Roblox username associated with that PID (PID required) |
+| `InstancesChanged` | An event (Action) who being fired when an instance being attached/deattached. Callbacks with an array of currently attached clients |
+
+## 🕴️ Client object
+Some functions like `GetClients` returning array with `Client` class
+This class contains `.Id` (Roblox ProcessId) and `.Name` (Roblox username associated with that PID)
 
 ### Example Usage
 
