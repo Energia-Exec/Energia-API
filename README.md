@@ -48,7 +48,7 @@ class Program
         Energia.Attach();
 
         // Listen for changes in attached instances
-        Energia.InstancesChanged += (clients) =>
+        Energia.InstancesChanged += (clients, newClients) =>
         {
             Console.WriteLine("Connected instances:");
             foreach (var client in clients)
